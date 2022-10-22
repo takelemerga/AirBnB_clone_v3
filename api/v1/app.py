@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" app module """
+""" application module """
 
 from os import getenv
 from flask import Flask, jsonify, make_response
