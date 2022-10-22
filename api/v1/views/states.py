@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-   States module
+   State module
    View for State objects that handles all default RestFul API actions
 """
 from models.state import State
