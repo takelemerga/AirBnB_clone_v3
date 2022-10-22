@@ -36,7 +36,7 @@ The command interpreter is used to perform actions to objects of the classes men
 To run the command interpreter, execute the `console.py` file.
 
 ```
-nahiterefe@ubuntu:~AirBnB_clone$ ./console.py
+tolaa@ubuntu:~AirBnB_clone$ ./console.py
 (hbnb) 
 ```
 
@@ -60,7 +60,7 @@ Execution in `interactive` and `non-interactive` modes.
 
 #### 1. Interactive Mode
 ```
-nahiterefe@ubuntu:~AirBnB_clone$ ./console.py
+tolaa@ubuntu:~AirBnB_clone$ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -71,27 +71,27 @@ EOF  all  count  create  destroy  help  quit  show  update
 
 #### 2. Non-interactive Mode
 ```
-nahiterefe@ubuntu:~AirBnB_clone$ echo "help" | ./console.py
+tolaa@ubuntu:~AirBnB_clone$ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
 ========================================
 EOF  all  count  create  destroy  help  quit  show  update
 (hbnb) 
-nahiterefe@ubuntu:~AirBnB_clone$
+tolaa@ubuntu:~AirBnB_clone$
 ```
 ```
-nahiterefe@ubuntu:~AirBnB_clone$ cat test_help
+tolaa@ubuntu:~AirBnB_clone$ cat test_help
 help
-nahiterefe@ubuntu:~AirBnB_clone$
-nahiterefe@ubuntu:~AirBnB_clone$ cat test_help | ./console.py
+tolaa@ubuntu:~AirBnB_clone$
+tolaa@ubuntu:~AirBnB_clone$ cat test_help | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
 ========================================
 EOF  all  count  create  destroy  help  quit  show  update
 (hbnb) 
-nahiterefe@ubuntu:~AirBnB_clone$
+tolaa@ubuntu:~AirBnB_clone$
 ```
 
 ### Example
@@ -271,20 +271,17 @@ EOF  all  count  create  destroy  help  quit  show  update
 Quit command to exit the program
 (hbnb)
 (hbnb) quit
-nahiterefe@ubuntu:~AirBnB_clone$
-nahiterefe@ubuntu:~AirBnB_clone$ cat file.json ; echo ""
-{"Place.4e70b774-e1ce-45c6-8993-45e10ce48a46": {"id": "4e70b774-e1ce-45c6-8993-45e10ce48a46", "created_at": "2022-01-26T19:50:49.059166", "updated_at": "2022-01-26T19:50:49.059232", "__class__": "Place"}, "BaseModel.c37c1765-bd84-4890-90b4-690afffb2b3d": {"id": "c37c1765-bd84-4890-90b4-690afffb2b3d", "created_at": "2022-01-26T19:54:52.766133", "updated_at": "2022-01-26T19:56:36.394426", "email": "nahi.terefe@gmail.com", "__class__": "BaseModel"}}
-nahiterefe@ubuntu:~AirBnB_clone$
+tolaa@ubuntu:~AirBnB_clone$
 ```
 
 ### Testing
 
 To run all the `unittests` run `python3 -m unittest discover tests`:
 ```
-nahiterefe@ubuntu:~AirBnB_clone$ python3 -m unittest discover tests
+tolaa@ubuntu:~AirBnB_clone$ python3 -m unittest discover tests
 ```
 
 Or non-interactively by running `echo "python3 -m unittest discover tests" | bash`:
 ```
-nahiterefe@ubuntu:~AirBnB_clone$ echo "python3 -m unittest discover tests" | bash
+tolaa@ubuntu:~AirBnB_clone$ echo "python3 -m unittest discover tests" | bash
 ```
