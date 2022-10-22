@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""  views index module """
+"""  views module index"""
 
 from api.v1.views import app_views
 from models import storage

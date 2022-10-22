@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" views init """
+""" views initialization """
 
 from flask import Blueprint
 

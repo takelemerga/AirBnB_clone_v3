@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-   Cities module
+   define Cities module
    View for City objects that handles all default RestFul API actions
 """
 from models.state import State

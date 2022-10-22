@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-   Users module
+   define Users module
    View for Users objects that handles all default RestFul API actions
 """
 from models.user import User
